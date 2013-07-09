@@ -14,7 +14,7 @@ void morse_code_init(){
 	dit = std::string("1");
 	dah = std::string("111");
 	p = std::string("0");
-	ch_p = std::string("0");
+	ch_p = std::string("000");
 }
 
 void morse_letters_init(){
