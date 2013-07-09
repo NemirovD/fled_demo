@@ -4,25 +4,25 @@ A program used to demonstrate finding the morse code letter that a blinking ligh
 
 ####Usage
 
-fled &lt;duration&rt; &lt;resolution x&rt; &lt;resolution y&rt; &lt;patch_height&rt; &lt;patch_width&rt; &lt;channel&rt;
+fled &lt;duration&gt; &lt;resolution x&gt; &lt;resolution y&gt; &lt;patch_height&gt; &lt;patch_width&gt; &lt;channel&gt;
 
-&lt;duration&rt;
+&lt;duration&gt;
 	how long the camera will record the light
 	
-&lt;resolution x&rt;
+&lt;resolution x&gt;
 	resizes the images to the number of pixels in the x direction
 	setting this value to -1 will make the program use the original size
 	
-&lt;resolution x&rt;
-	see &lt;resolution y&rt;
+&lt;resolution x&gt;
+	see &lt;resolution y&gt;
 	
-&lt;patch_height&rt;
+&lt;patch_height&gt;
 	the height of the convolution kernel in pixels
 	
-&lt;patch_width&rt;
+&lt;patch_width&gt;
 	the width of the convolution kernel in pixels
 	
-&lt;channel&rt;
+&lt;channel&gt;
 	the channel to be analysed, can be one of
 		* H &mdash; Hue channel of the HLS color space
 		* L &mdash; Light channel of the HLS color space
