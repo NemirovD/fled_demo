@@ -34,3 +34,5 @@ fled &lt;duration&gt; &lt;resolution x&gt; &lt;resolution y&gt; &lt;patch_height
 		
 if a value is input that is not included in the list above the program will default
 to a greyscale image.
+
+To start recording simply press enter, when the recording is done the program will show you the location of the light and its morse code value. If you want to exit the program go back to the webcam window and press escape.
